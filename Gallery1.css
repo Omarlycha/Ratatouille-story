@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Yuji+Mai&display=swap');
+
+.gallery{background-color: aliceblue;
+    
+}
+h2{
+    font-size: xx-large;
+    text-align: justify;
+    text-overflow: clip;
+    font-weight: bolder;
+    text-decoration: solid;
+
+    }
+h1{
+    text-align: center;
+    color: rgb(241, 252, 246);
+    font-size: xx-large;
+    padding: 3%;
+    font-stretch: extra-expanded;
+    background-color: #976f74;
+}
+a[href]{
+  color: rgb(232, 73, 29);
+  background-color: #fce51a;
+  font-size: xx-large;
+}
+h4{
+    font-size: xx-large;
+    font-family: 'Arial-black';
+    color: rgb(2, 7, 7);
+    background-color: bisque;
+}
+footer{
+    color: rgba(146, 11, 11, 0.788);
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(247, 189, 118);
+    padding: 3%;
+    text-align: center;
+    text-overflow: ellipsis;
+
+}
+
+header{
+    color:hsl(15%, 10%, 10%;)
+    padding-top:1px;
+    min-height:0px;
+    border-bottom:#e8491d 3px solid;
+    font-size: xx-large;
+  }
+
+  body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f3efef;
+    font-size: larger;
+    font-weight: 300px;
+  }
+  .font{
+    font-size: 32px;
+  }
+
+  h5{
+    min-height:40px;
+    background:url('../Images/s.png') repeat-x;
+    background-position: center;
+    background-attachment: local;
+    background-size: cover;
+    text-align:center;
+    color:#f5e613;
+    font-size: xx-large;
+    text-align: justify;
+  }
+  li:nth-child(1){
+    color: #57a4fc;
+  }
+
+  li:nth-child(2){
+    color: #976f74;
+  }
+  li:nth-child(3){
+    color: #57a4fc;
+  }
+  li:nth-child(4){
+    color: #db3232;
+  }
+  li:nth-child(5){
+    color: rgb(236, 85, 156);
+  }
+  h1::before{
+    content: "⏩";
+    color: #57a4fc;
+  }
+  
+  h2::before{
+    content: "“";
+    font-size:xx-large;
+    color: #10171b;
+  }
+  h2::after{
+    content: '”';
+    font-size:xx-large;
+    color: #10171b;
+  }
+  
+
+  li:nth-child(3)::after{
+    content: "";
+    color: #fc579c;
+    font-size: 0.95em;
+  }
+
+  
+  li:nth-child(1)::before{
+    content:'✅';
+  }
+
+  li:nth-child(2)::before{
+    content: '✅';
+  }
+
+  li:nth-child(3)::before{
+    content: '✅';}
+
+  li:nth-child(4)::before{
+    content: '✅';
+  }
+
+  li:nth-child(5)::before{
+    content: '✅';
+  }
+  h3::before{
+    content: "";
+    color: #fc579c;
+  }
+  
+  ol{
+    list-style: none;
+    padding:0px;
+    border: #cccccc solid 0px;
+    margin-bottom:5px;
+    background:#f3efef;
+    background-position: 17%;
+    color: #10171b;
+  }
+  h3{
+    list-style: none;
+    padding:10px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#eb3d3d;
+    background-position: 17%;
+    color: #10171b;
+    font-size: xx-large;
+    text-size-adjust: 100;
+  }
+  h6{
+    list-style: none;
+    padding:10px;
+    border: #cccccc solid 1px;
+    margin-bottom:5px;
+    background:#eb3d3d;
+    background-position: 7%;
+    color: #10171b;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    filter: g;
+  }
+  /* Media Queries */
+@gallery(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+     h1,
+    #boxes .box,
+   }
+   {
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+
+    #Image-1{
+      filter:hue-rotate(90deg);
+    }
+    .Image-2{
+      filter:hue-rotate(180deg);
+      background-color: #cadb32;
+    }
+    
+
+    
+  
